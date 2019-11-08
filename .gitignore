@@ -4,10 +4,13 @@
 [Oo]bj/
 [Bb]uild/
 [Bb]uilds/
+# Allow pushing WebGL builds to GitHub Pages
+!docs/Build
 Assets/AssetStoreTools*
 
 # macOS
 .DS_Store
+*.swp
 
 # Visual Studio cache directory
 .vs/
